@@ -1,0 +1,26 @@
+{
+    "name": "mijia_IR",
+    "version": "0.0.0",
+    "description": "米加盒子红外接收扩展~zhandroids",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "mijia.ts",
+        "enums.d.ts",
+        "shims.d.ts",
+        "mijiaIR.cpp",
+        "ReceiverIR.cpp",
+        "ReceiverIR.h",
+        "RemoteIR.h",
+        "TransmitterIR.cpp",
+        "TransmitterIR.h",
+        "_locales/zh/mijia-strings.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "license": "MIT"
+}
